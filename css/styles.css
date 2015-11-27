@@ -1,0 +1,97 @@
+body{
+    background-color: #f2f2f2;
+    font-size: 16px;
+    color: #262626;
+    font-family: 'Quattrocento', serif;
+
+}
+
+header{
+    background-image: url("../img/bg.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.1); /* IE9+ only */
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 36px;
+}
+
+h3{
+
+}
+
+h5, h6{
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 700;
+}
+
+a {
+    
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+#welcome-text {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+#welcome-text h1 {
+    font-weight: bold;
+}
+
+#welcome-text p {
+
+}
+
+#about{
+    text-align: center;
+}
+
+#about p{
+    font-size: 22px;
+}
+
+#services a{
+    color: #262626;
+}
+
+.fullwidth{
+    padding: 60px 0 60px 0;
+}
+
+.fullwidth:last-child{
+    padding: 0;
+}
+
+.fullwidth, .fullwidth a{
+    color: #f2f2f2;
+}
+
+#writeus{
+    text-align: center;
+}
+
+#writeus h3{
+
+}
+
+.grey{
+    background-color: #262626;
+}
+
+.blue{
+    background-color: #1d60b4;
+}
+
+.dark-blue{
+    background-color: #20579a;
+}
