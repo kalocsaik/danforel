@@ -17,13 +17,13 @@
 
 
         <header>
-            <div class="row">
+            <div class="row" id="menu-fix">
                 <nav class="small-12 columns" id="menu">                
                     <ul class="menu">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Health</a></li>
                         <li><a href="#">Production</a></li>
-                        <li><a class="logo" href="index.html"><img src="http://i48.tinypic.com/2mob6nb.png" alt="Michigan State" width="150" height="150" /></a></li>
+                        <li class="logo"><a href="#"><img src="img/logo.png" alt="Danforel logo" width="124" height="80" /></a></li>
                         <li><a href="#">Products</a></li>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Language</a></li>
@@ -33,7 +33,7 @@
 
             <div class="row">
                 <div class="small-centered small-12 columns" id="welcome-text">
-                    <span>
+                    <span class="welcome-box">
                         <h1>Welcome to Danforel!</h1>
                         <div id="divider"></div>
                         <p>Smoked trout fillets, <br>
@@ -43,13 +43,12 @@
                 <div id="arrow">
                     <h1><a href="#">»</a></h1>
                 </div>
-
             </div>
         </header>
 
         <div class="row">
-            <div class="large-centered large-6 columns" id="about">
-                <h2>A leading company of Europe</h2>
+            <div class="medium-centered medium-10 large-centered large-8 columns" id="about">
+                <h1>The leading company of Europe</h1>
                 <p>Danforel was established more than 60 years ago on the basis of the consideration that efficient sales and exports require rational production and distribution.
                     Today, Danforel is a privately-owned limited company with approximately 120 employees. Danforel occupies a position as Europe's leading and biggest producer of smoked trout fillet products.</p>
                 <a href="#" class="button">Learn more</a>
@@ -57,22 +56,22 @@
         </div>
 
         <div class="row" id="services">
-            <div class="large-4 columns service">
-                <img class="service-img" src="http://placehold.it/400x200">
+            <div class="medium-10 medium-offset-1 end large-4 large-offset-0 columns service">
+                <img class="service-img" src="http://placehold.it/400x300">
                 <h3>Our Approach</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 <a class="readmore underline" href="#">Read more</a>
             </div>
 
-            <div class="large-4 columns service">
-                <img class="service-img" src="http://placehold.it/400x200">
+            <div class="medium-10 medium-offset-1 end large-4 large-offset-0 columns service">
+                <img class="service-img" src="http://placehold.it/400x300">
                 <h3>Our Approach</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 <a class="readmore underline" href="#">Read more</a>
             </div>
 
-            <div class="large-4 columns service">
-                <img class="service-img" src="http://placehold.it/400x200">
+            <div class="medium-10 medium-offset-1 end large-4 large-offset-0 columns service">
+                <img class="service-img" src="http://placehold.it/400x300">
                 <h3>Our Approach</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 <a class="readmore underline" href="#">Read more</a>
@@ -90,33 +89,33 @@
 
         <footer>
             <div class="fullwidth blue">
-                <div class="row ">
+                <div class="row">
                     <div class="small-6 medium-12 large-3 columns">
-                        <a> <img src="http://placehold.it/100x100" alt="logo"></a> 
+                        <a> <img src="img/logo.png" alt="logo" width="124" height="80"></a> 
                     </div>
+
                     <div class="small-6 medium-4 large-3 columns" id="contact-info">
                         <h5>Contact info</h5>
-                        <h6>
-                            Location
-                        </h6>
+                        <h6>Location</h6>
                         <p>Slagterivej 2 - DK 7200 Grindsted</p>
-                        <h6>
-                            Phone
-                        </h6>
+                        <h6>Phone</h6>
                         <p>Tel.: + 45 7643 9000 <br/> Fax: +45 7586 5739</p>
-
-                        <h6>
-                            Email
-                        </h6>
+                        <h6> Email</h6>
                         <p>danforel@danforel.com</p>
                     </div>
 
                     <div class="small-6 medium-4 large-3 columns" id="newsletter">
                         <h5> Newsletter </h5>
-                        <p> Subscribe to our newsletter and you always be update. </p>
+                        <p> Subscribe to our newsletter and you always be updated. </p>
                         <form>
-                            <input type="email" placeholder="Your email goes here">
-                            <input type="submit" class="button" value="Send">
+                            <div class="row collapse">
+                                <div class="small-8 columns">
+                                    <input type="email" placeholder="Your email goes here">
+                                </div>
+                                <div class="small-2 columns end">
+                                    <input type="submit" class="button" value="Send">
+                                </div>
+                            </div>
                         </form>
                     </div>  
 
