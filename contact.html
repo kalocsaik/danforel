@@ -8,10 +8,21 @@
         <link rel="stylesheet" href="css/foundation.css" />
         <link rel="stylesheet" href="css/app.css" />
         <link rel="stylesheet" href="css/styles.css" />
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript">
+            $('.maps').click(function () {
+                $('.maps iframe').css("pointer-events", "auto");
+              /*   $(".maps iframe").css({"pointer-events": "auto"});*/
+            });
+
+            $('.maps').mouseleave(function () {
+                $('.maps iframe').css("pointer-events", "none");
+            });
+        </script>
     </head>
     <body>
 
-               <header>
+        <header>
             <div class="row">
                 <nav class="small-12 columns" id="menu">                
                     <ul class="menu">
@@ -38,18 +49,16 @@
                 <div id="arrow">
                     <h1><a href="#">»</a></h1>
                 </div>
-
             </div>
         </header>
 
-        <div class="row">
+        <div class="row about">
             <div class="small-12 columns">
                 <h1>Fill out the form below. We will contact you soon.</h1>
             </div>
         </div>
 
-
-        <div class="row">
+        <div class="row" id="contact">
             <div class="medium-3 columns">
                 <div class="row">
                     <div class="small-6 medium-12 columns">
@@ -62,10 +71,6 @@
                         <p>Phone: + 45 7643 9000 <br/> Fax: +45 7586 5739 <br/>Email: danforel@danforel.com</p>
                     </div>
                 </div>
-
-
-
-
             </div>
 
 
@@ -82,7 +87,7 @@
                 </form>
             </div>
         </div>
-        <div class="row">
+        <div class="row about">
             <div class="small-12 columns">
                 <h1>You can also contact one of our team members</h1>
             </div>
@@ -142,8 +147,11 @@
                 </div>
             </div>
         </div>
-        <!-- google maps -->
-  <footer>
+        <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.1089261217603!2d8.935486115930702!3d55.75660998055431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464b0cefeffce981%3A0x8acab781a82faeae!2sSlagterivej+2%2C+7200+Grindsted!5e0!3m2!1shu!2sdk!4v1448807037072" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+        <footer>
             <div class="fullwidth blue">
                 <div class="row ">
                     <div class="small-6 medium-12 large-3 columns">
